@@ -6,7 +6,7 @@
   justify-content: space-evenly;
   top: 0;
   width: 100%;
-  padding: 10px;
+  max-width: 100%;
   z-index: 1;
   background-color: rgba(82, 82, 82, 0.12);
   transition: all .1s ease-in-out;

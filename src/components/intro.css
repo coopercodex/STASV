@@ -1,36 +1,35 @@
 .intro-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin-top: 3rem;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 3rem;
+  text-align: center;
 }
 
-.intro-container > h1 {
-    margin: auto;
-    font-size: 2.7rem;
+.intro-container>h1 {
+  margin: auto;
+  font-size: 2.7rem;
 }
 
 .intro-underline {
-    border-bottom: 1.5px solid #C25D38;
-    width: 75%;
-    padding: 5px;
+  border-bottom: 1.5px solid #C25D38;
+  width: 75%;
+  padding: 5px;
 }
 
 .intro-body {
-    display: flex;
-    justify-content: center;
-    max-width: 900px;
-    font-size: 1.35rem;
-    line-height: 1.4;
+  display: flex;
+  justify-content: center;
+  max-width: 900px;
+  font-size: 1.35rem;
+  line-height: 1.4;
 }
 
 @media screen and (max-width:680px) {
-    .intro-body {
-        font-size: 1.45rem;
-        line-height: 1.4;
-    }
+  .intro-body {
+    font-size: 1.45rem;
+    line-height: 1.4;
+  }
 }
-
