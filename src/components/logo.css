@@ -1,0 +1,16 @@
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 5px;
+}
+
+
+
+@media screen and (max-width:750px) {
+    .logo-container {
+       flex-direction: row;
+       flex-wrap: wrap;
+       gap: 20px;
+    }
+}
