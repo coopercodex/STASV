@@ -1,0 +1,49 @@
+import React, { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
+import './navbar.css'
+import logo from '../assets/Screenshot 2023-04-20 at 1.55.49 PM.png'
+import { ClickAwayListener } from '@mui/material'
+import MenuIcon from '@mui/icons-material/Menu';
+import CloseIcon from '@mui/icons-material/Close';
+
+export const Navbar = () => {
+  const [showNavbar, setShowNavbar] = useState(false);
+
+  const handleNavbar = () => {
+    setShowNavbar(!showNavbar)
+  }
+
+  const handleClickAway = () => {
+    setShowNavbar(false)
+  }
+
+  return (
+    <>
+      <ClickAwayListener onClickAway={handleClickAway}>
+        <div className='navbar'>
+          <ul className={showNavbar ? 'nav-menu active' : 'nav-menu'}>
+            <li><Link to='/' className="home-button">Home</Link></li>
+            <span style={{ fontSize: '30px' }}>|</span>
+            <li><Link to='/about' className="home-button">About</Link></li>
+            <span style={{ fontSize: '30px' }}>|</span>
+            <li><Link to='/about' className="home-button">Contact</Link></li>
+            <li><Link to='/'><img src={logo} className='logo' /></Link></li>
+            <li><Link to='/about' className="home-button">Specials</Link></li>
+            <span style={{ fontSize: '30px' }}>|</span>
+            <li><Link to='/about' className="home-button">Destinations</Link></li>
+            <span style={{ fontSize: '30px' }}>|</span>
+            <li><Link to='/about' className="home-button">Gallery</Link></li>
+            <li><Link to='/profile'></Link></li>
+          </ul>
+          <div className='hamburger-container'>
+            <Link to='/'><img src={logo} className='logo-media' /></Link>
+            <div className='hamburger' onClick={handleNavbar}>
+              {showNavbar ? (<CloseIcon fontSize='large' className='icon' />) : (<MenuIcon fontSize='large' className='icon' />)}
+            </div>
+          </div>
+        </div>
+      </ClickAwayListener>
+    </>
+  )
+}
+
