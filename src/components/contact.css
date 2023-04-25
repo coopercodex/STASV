@@ -1,0 +1,40 @@
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+.contact-body {
+  max-width: 900px;
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+.contact-btn {
+  color: rgb(87, 85, 85);
+  font-size: .9rem;
+  padding: 9px 30px;
+  background-color: #72bcabdb;
+  font-weight: 400;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.contact-btn:hover {
+  background-color: #72bcab96;
+}
+
+.quote {
+  margin-top: 4rem;
+}
+
+.signature {
+  font-size: 1.3rem;
+  font-style: italic;
+}

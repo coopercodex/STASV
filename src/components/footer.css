@@ -6,6 +6,9 @@
     background-color: #328396;
     bottom: 0;
   }
+  a {
+    color: inherit;
+  }
   
   .footer-container {
     max-width: 1240px;
@@ -63,3 +66,4 @@
       margin: auto;
     }
   }
+

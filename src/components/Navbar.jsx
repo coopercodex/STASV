@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import './navbar.css'
-import logo from '../assets/Screenshot 2023-04-20 at 1.55.49 PM.png'
+import logo from '../assets/Sweet tea and sunshine vacations (4).png'
 import { ClickAwayListener } from '@mui/material'
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
@@ -26,14 +26,13 @@ export const Navbar = () => {
             <span style={{ fontSize: '30px' }}>|</span>
             <li><Link to='/about' className="home-button">About</Link></li>
             <span style={{ fontSize: '30px' }}>|</span>
-            <li><Link to='/about' className="home-button">Contact</Link></li>
+            <li><Link to='/contact' className="home-button">Contact</Link></li>
             <li><Link to='/'><img src={logo} className='logo' /></Link></li>
-            <li><Link to='/about' className="home-button">Specials</Link></li>
+            <li><Link to='/' className="home-button">Specials</Link></li>
             <span style={{ fontSize: '30px' }}>|</span>
-            <li><Link to='/about' className="home-button">Destinations</Link></li>
+            <li><Link to='/destinations' className="home-button">Destinations</Link></li>
             <span style={{ fontSize: '30px' }}>|</span>
-            <li><Link to='/about' className="home-button">Gallery</Link></li>
-            <li><Link to='/profile'></Link></li>
+            <li><Link to='/' className="home-button">Gallery</Link></li>
           </ul>
           <div className='hamburger-container'>
             <Link to='/'><img src={logo} className='logo-media' /></Link>

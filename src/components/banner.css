@@ -1,8 +1,7 @@
-.featured {
+.featured-about {
     object-fit: contain;
     height: 500px;
     background-size: cover;
-    background-image: url('../assets/sean-oulashin-KMn4VEeEPR8-unsplash.jpg');
     background-position: center center;
 }
 

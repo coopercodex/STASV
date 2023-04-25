@@ -15,10 +15,11 @@ export const Footer = () => {
             </div>
           </div>
           <div className='phone'>
-            <h4><FaPhone size={20} style={{ color: 'white', marginRight: '2rem' }} /> 1-900-cruise-travel</h4>
+            <h4><FaPhone size={20} style={{ color: 'white', marginRight: '2rem' }} />1-805-708-3851</h4>
           </div>
           <div className='phone'>
-            <h4><FaMailBulk size={20} style={{ color: 'white', marginRight: '2rem' }} />STASV@gmail.com</h4>
+            <h4><FaMailBulk size={20} style={{ color: 'white', marginRight: '2rem' }} />
+              <a href="mailto:email@example.com?subject=Inquiry from Sweet Tea and Sunshine Cruise Vacations">sweetteasunshinecruisevac@gmail.com</a></h4>
           </div>
         </div>
         <div className='right'>
@@ -30,9 +31,9 @@ export const Footer = () => {
           </div>
           <div className='bottom'>
             <p>
-              Copyrights © 2023 All Rights Reserved by Evolution Travel LLC. - Privacy Policy
+              Copyrights © 2023 All Rights Reserved by Evolution Travel LLC. -<a href='https://www.evotravelagent.com/assets/PrivacyPolicy-f7cbd506874721c3b52e20cb33a9ed2e1e535180a3136f3ef5dd07773508c16e.pdf' target="_blank" rel="noreferrer">Privacy Policy</a>
               "Registered in all states that require Seller of Travel Registration."
-              Seller of Travel: Florida Registration #35395, CST# 2001330-10, Hawaii #TAR-6612, Washington #603352551
+              Seller of Travel: Florida Registration #35395, CST #2001330-10, Hawaii #TAR-6612, Washington #603352551
             </p>
           </div>
         </div>

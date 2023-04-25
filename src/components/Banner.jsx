@@ -2,9 +2,9 @@ import React from 'react'
 import './banner.css'
 // import bannerPicture from '../assets/pedro-monteiro-HfIex7qwTlI-unsplash.jpg'
 
-export const Banner = () => {
+export const Banner = ({image}) => {
     return (
-        <header className='featured'>
+        <header className='featured-about' style={{backgroundImage: `url(${image})`}}>
             <div className='featured-movies'>
                 <h1 className='featured-title'>
                     {/* {movie?.title || movie?.name || movie?.original_name} */}

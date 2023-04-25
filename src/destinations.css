@@ -1,0 +1,36 @@
+.destinations-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  /* text-align: center; */
+}
+
+
+.destinations-container {
+  font-size: 1.2rem;
+}
+
+.destinations-card {
+  max-width: 900px;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.destinations-card > p {
+  font-size: 1.4rem;
+}
+
+.destination-image {
+  /* object-fit: contain; */
+  height: auto;
+  max-height: 550px;
+  /* width: auto; */
+  width: 100%;
+}
