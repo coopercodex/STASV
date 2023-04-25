@@ -1,6 +1,6 @@
 import React from 'react'
 import './banner.css'
-// import bannerPicture from '../assets/pedro-monteiro-HfIex7qwTlI-unsplash.jpg'
+
 
 export const Banner = ({image}) => {
     return (
