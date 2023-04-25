@@ -56,14 +56,21 @@
   .footer .location h4 {
     padding-top: 0;
   }
+
+  .logo-footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .archer-logo {
+    margin-top: 9px;
+  }
   
   @media screen and (max-width:640px) {
     .footer-container {
       grid-template-columns: 1fr;
-    }
-  
-    .right .social {
-      margin: auto;
     }
   }
 

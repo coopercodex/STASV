@@ -1,6 +1,8 @@
 import React from 'react'
 import { FaFacebook, FaLinkedin, FaMailBulk, FaPhone, FaSearchLocation, FaTwitter } from 'react-icons/fa'
 import './footer.css'
+import evoLogo from '../assets/1681324327187blob.jpg'
+import archerLogo from '../assets/1681772822800blob.jpg'
 
 export const Footer = () => {
   return (
@@ -26,10 +28,14 @@ export const Footer = () => {
           <h4>Connect with us</h4>
           <div className='social'>
             <FaFacebook size={30} style={{ color: 'white', marginRight: '1rem' }} />
-            <FaLinkedin size={30} style={{ color: 'white', marginRight: '1rem' }} />
-            <FaTwitter size={30} style={{ color: 'white', marginRight: '1rem' }} />
+            {/* <FaLinkedin size={30} style={{ color: 'white', marginRight: '1rem' }} />
+            <FaTwitter size={30} style={{ color: 'white', marginRight: '1rem' }} /> */}
           </div>
           <div className='bottom'>
+            <div className='logo-footer'>
+            <img src={evoLogo} height='65' />
+            <img src={archerLogo} className='archer-logo' height='55' />
+            </div>
             <p>
               Copyrights © 2023 All Rights Reserved by Evolution Travel LLC. -<a href='https://www.evotravelagent.com/assets/PrivacyPolicy-f7cbd506874721c3b52e20cb33a9ed2e1e535180a3136f3ef5dd07773508c16e.pdf' target="_blank" rel="noreferrer">Privacy Policy</a>
               "Registered in all states that require Seller of Travel Registration."
