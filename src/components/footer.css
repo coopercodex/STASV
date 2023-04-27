@@ -60,12 +60,8 @@
   .logo-footer {
     display: flex;
     justify-content: flex-end;
-    align-items: center;
+    align-items: flex-end;
     gap: 30px;
-  }
-
-  .archer-logo {
-    margin-top: 9px;
   }
   
   @media screen and (max-width:640px) {
