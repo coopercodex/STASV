@@ -4,6 +4,7 @@ import './banner.css'
 
 export const Banner = ({image}) => {
     return (
+      <div className='cover'>
         <header className='featured-about' style={{backgroundImage: `url(${image})`}}>
             <div className='featured-movies'>
                 <h1 className='featured-title'>
@@ -18,7 +19,7 @@ export const Banner = ({image}) => {
                 </h1>
             </div>
             <div className='fade-bottom' />
-
         </header>
+      </div>
     )
 }
