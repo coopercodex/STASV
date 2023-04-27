@@ -7,11 +7,10 @@ import { Footer } from './components/Footer'
 import { Route, Routes } from 'react-router-dom'
 import { About } from './About'
 import homeBG from './assets/homeBackground.png'
-// import aboutBG from './assets/the-travel-nook-2FoqQ0EPwLg-unsplash.jpg'
-// import aboutBG from './assets/georgy-trofimov-xEJoSsDCnR8-unsplash.jpg'
 import aboutBG from './assets/alonso-reyes-Ca4XZM3xABg-unsplash.jpg'
-import destinationsBG from './assets/mike-arney-yRyZzxolfSs-unsplash.jpg'
-import contactBG2 from './assets/natalya-zaritskaya-SIOdjcYotms-unsplash.jpg'
+import destinationsBG from './assets/sean-ferigan-LKvUMKD-8k4-unsplash.jpg'
+import contactBG2 from './assets/fernando-jorge-cRQYPtbLLew-unsplash.jpg'
+// import contactBG2 from './assets/sean-ferigan-LKvUMKD-8k4-unsplash.jpg'
 import { Contact } from './components/Contact'
 import { Destinations } from './Destinations'
 
@@ -31,6 +30,7 @@ function App() {
         <Route path='about' element={
           <>
             <Banner image={aboutBG} />
+            <Logo />
             <About />
           </>
         } />
@@ -43,6 +43,7 @@ function App() {
         <Route path='destinations' element={
           <>
             <Banner image={destinationsBG} />
+            <Logo />
             <Destinations  />
           </>
         } />

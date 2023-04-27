@@ -21,18 +21,18 @@ export const Navbar = () => {
     <>
       <ClickAwayListener onClickAway={handleClickAway}>
         <div className='navbar'>
-            <Link to='/'><img src={logo} className='logo' /></Link>
+          <Link to='/'><img src={logo} className='logo' /></Link>
           <ul className={showNavbar ? 'nav-menu active' : 'nav-menu'}>
             <li><Link to='/' className="home-button">Home</Link></li>
             {/* <span style={{ fontSize: '30px' }}>|</span> */}
             <li><Link to='/about' className="home-button">About</Link></li>
             {/* <span style={{ fontSize: '30px' }}>|</span> */}
             <li><Link to='/contact' className="home-button">Contact</Link></li>
-            <li><Link to='/' className="home-button">Specials</Link></li>
+            <li><Link className="home-button">Specials</Link></li>
             {/* <span style={{ fontSize: '30px' }}>|</span> */}
             <li><Link to='/destinations' className="home-button">Destinations</Link></li>
             {/* <span style={{ fontSize: '30px' }}>|</span> */}
-            <li className='last-li'><Link to='/' className="home-button">Gallery</Link></li>
+            <li className='last-li'><Link className="home-button">Gallery</Link></li>
           </ul>
           <div className='hamburger-container'>
             {/* <Link to='/'><img src={logo} className='logo-media' /></Link> */}
