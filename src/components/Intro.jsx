@@ -5,7 +5,6 @@ import './intro.css'
 export const Intro = () => {
 
   return (
-    <>
     <div className='intro-container'>
       <h1>Welcome to Sweet Tea + Sunshine Cruise Vacations!</h1>
       <div className='intro-underline' />
@@ -17,6 +16,5 @@ export const Intro = () => {
         </p>
       </div>
     </div>
-    </>
   )
 }
