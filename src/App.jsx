@@ -22,7 +22,7 @@ function App() {
       <Routes>
         <Route path='/' element={
           <>
-            <Banner image={homeBG}  />
+            <Banner image={homeBG} />
             <Logo />
             <Intro />
           </>
@@ -34,17 +34,17 @@ function App() {
             <About />
           </>
         } />
-         <Route path='contact' element={
+        <Route path='contact' element={
           <>
             <Banner image={contactBG2} />
-            <Contact  />
+            <Contact />
           </>
         } />
         <Route path='destinations' element={
           <>
             <Banner image={destinationsBG} />
             <Logo />
-            <Destinations  />
+            <Destinations />
           </>
         } />
       </Routes>
