@@ -24,7 +24,7 @@ export const Navbar = () => {
           <ul className={showNavbar ? 'nav-menu active' : 'nav-menu'}>
             <li><Link to='/' className="home-button">Home</Link></li>
             {/* <span style={{ fontSize: '30px' }}>|</span> */}
-            <li><Link href='/about' className="home-button">About</Link></li>
+            <li><Link to='/about' className="home-button">About</Link></li>
             {/* <span style={{ fontSize: '30px' }}>|</span> */}
             <li><Link to='/contact' className="home-button">Contact</Link></li>
             <li><Link className="home-button">Specials</Link></li>
