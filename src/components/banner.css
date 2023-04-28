@@ -70,3 +70,9 @@
     margin-top: 20.8rem;
     background-image: linear-gradient(to top, rgb(255, 255, 255), 70%, transparent 100%);
 }
+
+.music-player {
+  position: absolute;
+  margin-top: -5rem;
+  right: 0;
+}
