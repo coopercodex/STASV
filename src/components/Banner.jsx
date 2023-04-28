@@ -21,7 +21,6 @@ export const Banner = ({ image }) => {
           </h1>
         </div>
         <div className='fade-bottom' />
-        {location.pathname == '/' ? (
           <ReactAudioPlayer
             className='music-player'
             src={sound}
@@ -30,7 +29,6 @@ export const Banner = ({ image }) => {
             controlsList='nodownload'
             volume={.5}
           />
-        ) : null}
       </header>
     </div>
   )
