@@ -21,18 +21,17 @@ export const Banner = ({ image }) => {
           </h1>
         </div>
         <div className='fade-bottom' />
-        {location.pathname == '/' ? (
-          <ReactPlayer
-            className='music-player'
-            url={sound}
-            playing={true}
-            width='250px'
-            height='5%'
-            controls={true}
-            volume={0.4}
-            style={{ position: 'absolute', marginTop: '-3.8rem' }}
-          />
-        ) : null}
+        <ReactPlayer
+          className='music-player'
+          url={sound}
+          playing={true}
+          loop={true}
+          width='250px'
+          height='5%'
+          controls={true}
+          volume={0.4}
+          style={{ position: 'absolute', marginTop: '-3.8rem' }}
+        />
       </header>
     </div>
   )

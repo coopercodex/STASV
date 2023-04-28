@@ -16,7 +16,7 @@ export const About = () => {
           <p>Whether you want to travel to exotic destinations, to relax and be pampered on a luxurious ship, to have a fun family adventure, or to have a romantic getaway, I can help make your CRUISE dreams come true!
           </p>
           <p>
-          As an affiliate of Archer Travel Services which has been in business for over 70 years, this agency has access to a network of travel suppliers and resources that allows me to offer clients exclusive travel deals, packages, and perks.
+            As an affiliate of Archer Travel Services which has been in business for over 70 years, this agency has access to a network of travel suppliers and resources that allows me to offer clients exclusive travel deals, packages, and perks.
           </p>
           <p>
             Just contact me below with as much information as you can, and we can start planning your trip of a lifetime...
