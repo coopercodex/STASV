@@ -1,10 +1,12 @@
 import React from 'react'
 import './banner.css'
-// import sound from '../assets/paradise-island-96456.mp3'
-import ReactAudioPlayer from 'react-audio-player'
-
+import sound from '../assets/paradise-island-96456.mp3'
+// import ReactAudioPlayer from 'react-audio-player'
+// import {ReactMusicPlayer} from 'react-music-player';
+import ReactPlayer from 'react-player'
 
 export const Banner = ({ image }) => {
+
   return (
     <div className='cover'>
       <header className='featured-about' style={{ backgroundImage: `url(${image})` }}>
@@ -22,14 +24,16 @@ export const Banner = ({ image }) => {
         </div>
         <div className='fade-bottom' />
         {location.pathname == '/' ? (
-          <ReactAudioPlayer
-            className='music-player'
-            // src={sound}
-            autoPlay={true}
-            controls
-            controlsList='nodownload'
-            volume={.5}
-          />
+          <ReactPlayer
+          className='music-player'
+          url={sound}
+          playing={true}
+          width='250px'
+          height='5%'
+         controls={true}
+        volume={0.4}
+         style={{position: 'absolute', marginTop: '-3.8rem'}}
+        />
         ) : null}
       </header>
     </div>
