@@ -1,6 +1,6 @@
 import React from 'react'
 import './banner.css'
-import sound from '../assets/paradise-island-96456.mp3'
+// import sound from '../assets/paradise-island-96456.mp3'
 import ReactAudioPlayer from 'react-audio-player'
 
 
@@ -21,14 +21,16 @@ export const Banner = ({ image }) => {
           </h1>
         </div>
         <div className='fade-bottom' />
+        {location.pathname == '/' ? (
           <ReactAudioPlayer
             className='music-player'
-            src={sound}
+            // src={sound}
             autoPlay={true}
             controls
             controlsList='nodownload'
             volume={.5}
           />
+        ) : null}
       </header>
     </div>
   )
