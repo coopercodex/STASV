@@ -18,31 +18,29 @@ export const Navbar = () => {
   }
 
   return (
-    <>
-      <ClickAwayListener onClickAway={handleClickAway}>
-        <div className='navbar'>
-          <Link to='/'><img src={logo} className='logo' /></Link>
-          <ul className={showNavbar ? 'nav-menu active' : 'nav-menu'}>
-            <li><Link to='/' className="home-button">Home</Link></li>
-            {/* <span style={{ fontSize: '30px' }}>|</span> */}
-            <li><Link to='/about' className="home-button">About</Link></li>
-            {/* <span style={{ fontSize: '30px' }}>|</span> */}
-            <li><Link to='/contact' className="home-button">Contact</Link></li>
-            <li><Link className="home-button">Specials</Link></li>
-            {/* <span style={{ fontSize: '30px' }}>|</span> */}
-            <li><Link to='/destinations' className="home-button">Destinations</Link></li>
-            {/* <span style={{ fontSize: '30px' }}>|</span> */}
-            <li className='last-li'><Link className="home-button">Gallery</Link></li>
-          </ul>
-          <div className='hamburger-container'>
-            {/* <Link to='/'><img src={logo} className='logo-media' /></Link> */}
-            <div className='hamburger' onClick={handleNavbar}>
-              {showNavbar ? (<CloseIcon fontSize='large' className='icon' />) : (<MenuIcon fontSize='large' className='icon' />)}
-            </div>
+    <ClickAwayListener onClickAway={handleClickAway}>
+      <div className='navbar'>
+        <a href='/'><img src={logo} className='logo' /></a>
+        <ul className={showNavbar ? 'nav-menu active' : 'nav-menu'}>
+          <li><a href='/' className="home-button">Home</a></li>
+          {/* <span style={{ fontSize: '30px' }}>|</span> */}
+          <li><a href='/about' className="home-button">About</a></li>
+          {/* <span style={{ fontSize: '30px' }}>|</span> */}
+          <li><a href='/contact' className="home-button">Contact</a></li>
+          <li><a className="home-button">Specials</a></li>
+          {/* <span style={{ fontSize: '30px' }}>|</span> */}
+          <li><a href='/destinations' className="home-button">Destinations</a></li>
+          {/* <span style={{ fontSize: '30px' }}>|</span> */}
+          <li className='last-li'><a className="home-button">Gallery</a></li>
+        </ul>
+        <div className='hamburger-container'>
+          {/* <Link to='/'><img src={logo} className='logo-media' /></Link> */}
+          <div className='hamburger' onClick={handleNavbar}>
+            {showNavbar ? (<CloseIcon fontSize='large' className='icon' />) : (<MenuIcon fontSize='large' className='icon' />)}
           </div>
         </div>
-      </ClickAwayListener>
-    </>
+      </div>
+    </ClickAwayListener>
   )
 }
 
