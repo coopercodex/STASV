@@ -27,6 +27,7 @@ export const Banner = ({ image }) => {
             src={sound}
             autoPlay={true}
             controls
+            controlsList='nodownload'
             volume={.5}
           />
         ) : null}
