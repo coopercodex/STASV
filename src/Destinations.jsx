@@ -12,6 +12,7 @@ export const Destinations = () => {
             <h2>{place.title}</h2>
             <div className='destinations-card'>
               <img src={place.photo} className='destination-image' />
+              <h5 className='credit'>Photo By: {place.credit?.name} from <a href={place.credit?.link}>Unsplash</a></h5>
               <p>{place.description}</p>
             </div>
           </div>
