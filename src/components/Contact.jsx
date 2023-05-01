@@ -14,10 +14,13 @@ export const Contact = () => {
         </p>
 
         <h2>Email:</h2>
-        <p>Please send an email to <a href="mailto:email@example.com?subject=Inquiry from Sweet Tea and Sunshine Cruise Vacations">sweetteasunshinecruisevac@gmail.com</a></p>
+        <p>Please send an email to <span style={{fontWeight: 'bold'}}><a href="mailto:email@example.com?subject=Inquiry from Sweet Tea and Sunshine Cruise Vacations">sweetteasunshinecruisevac@gmail.com</a></span></p>
 
         <h2>Phone:</h2>
-        <p>Our phone number is 1-805-708-3851. Our team is available to take your call Monday-Friday 8 AM - 5 PM EST.</p>
+        <p>My phone number is <span style={{fontWeight: 'bold'}}>1-805-708-3851</span>. You can leave a message anytime and I'll be glad to help</p>
+
+        <h2>Address:</h2>
+        <p>Home based business that serves all around the country! <span style={{fontWeight: 'bold'}}>1010 Carroll Road, Marion, SC 29571</span></p>
 
         <h2>Plan your vacation:</h2>
         <p>Ready to plan your next vacation? Simply fill out the form below and we will respond as soon as possible.</p>
