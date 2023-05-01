@@ -12,8 +12,7 @@ export const Footer = () => {
           <div className='location'>
             <FaSearchLocation size={20} style={{ color: 'white', marginRight: '2rem' }} />
             <div>
-              <p>address</p>
-              <h4>state, city</h4>
+              <h4>1010 Carroll Road, Marion, SC 29571</h4>
             </div>
           </div>
           <div className='phone'>

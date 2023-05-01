@@ -1,6 +1,5 @@
 import React from 'react'
 import './banner.css'
-import sound from '../assets/paradise-island-96456.mp3'
 import ReactPlayer from 'react-player'
 
 export const Banner = ({ image }) => {
@@ -23,12 +22,13 @@ export const Banner = ({ image }) => {
         <div className='fade-bottom' />
         <ReactPlayer
           className='music-player'
-          url={sound}
-          playing={true}
+          url={'https://www.youtube.com/watch?v=cdApOcplgIw'}
+          playing={false}
           loop={true}
           width='250px'
-          height='5%'
+          height='6%'
           controls={true}
+          light={true}
           volume={0.4}
           style={{ position: 'absolute', marginTop: '-3.8rem' }}
         />

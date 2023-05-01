@@ -5,7 +5,7 @@ import travelData from './travelData.js'
 export const Destinations = () => {
   return (
     <div className='destinations-container'>
-      <h1>Destinations</h1>
+      <h1>Voyages around the World</h1>
       <div className='destinations'>
         {travelData.map((place) => (
           <div key={place.id}>
