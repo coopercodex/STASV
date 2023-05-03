@@ -10,7 +10,10 @@
 }
 
 body {
-  background: linear-gradient(white 30%, rgba(230, 212, 180, 0.8));
+  /* background: rgb(42,37,126); */
+  /* background: linear-gradient(0deg, rgba(50,131,150,1) 0%, rgba(50,131,150,1) 0%, rgba(255,255,255,1) 65%);   */
+  /* background: linear-gradient(white 30%, rgba(230, 212, 180, 0.8)); */
+  background: linear-gradient(white 30%, rgb(203, 158, 120));
   /* rgba(230, 212, 180, 0.9) */
   margin: 0;
   padding: 0;
