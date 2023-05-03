@@ -24,7 +24,7 @@ export const Contact = () => {
 
         <h2>Plan your vacation:</h2>
         <p>Ready to plan your next vacation? Simply fill out the form below and we will respond as soon as possible.</p>
-        <a href='https://form.jotform.com/200584241741146' target="_blank" rel="noreferrer">
+        <a href='https://form.jotform.com/231208221972147' target="_blank" rel="noreferrer">
           <button className='contact-btn'>Let's Explore</button>
         </a>
         <h3 className='quote'>

@@ -21,7 +21,7 @@ export const About = () => {
           <p>
             Just contact me below with as much information as you can, and we can start planning your trip of a lifetime...
           </p>
-          <a href='https://form.jotform.com/200584241741146' target="_blank" rel="noreferrer">
+          <a href='https://form.jotform.com/231208221972147' target="_blank" rel="noreferrer">
             <button className='about-btn'>Let's Explore</button>
           </a>
         </div>
