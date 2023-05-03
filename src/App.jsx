@@ -10,9 +10,10 @@ import homeBG from './assets/homeBackground.png'
 import aboutBG from './assets/alonso-reyes-Ca4XZM3xABg-unsplash.jpg'
 import destinationsBG from './assets/sean-ferigan-LKvUMKD-8k4-unsplash.jpg'
 import contactBG2 from './assets/fernando-jorge-cRQYPtbLLew-unsplash.jpg'
-// import contactBG2 from './assets/sean-ferigan-LKvUMKD-8k4-unsplash.jpg'
+import terms from './assets/2016_0330_Hawaii_Waikiki_dreamstime_11833955.jpg'
 import { Contact } from './components/Contact'
 import { Destinations } from './Destinations'
+import { Terms } from './components/Terms'
 
 function App() {
 
@@ -45,6 +46,13 @@ function App() {
             <Banner image={destinationsBG} />
             <Logo />
             <Destinations />
+          </>
+        } />
+         <Route path='terms' element={
+          <>
+            <Banner image={terms} />
+            <Logo />
+            <Terms />
           </>
         } />
       </Routes>
