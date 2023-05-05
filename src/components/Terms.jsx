@@ -23,10 +23,10 @@ export const Terms = () => {
           Price quotes are applicable to the date and time at which they are requested. Depending on the supplier, quotes are usually only good for 24-48 hours at most, as flights, occupancy availability etc can change minute by minute. Sweet Tea +Sunshine Cruise Vacations (an affiliate Archer Travel Services) is not responsible for any increases due to fuel surcharges, government-imposed taxes/fees or supplier-imposed increases.
         </p>
         <p>
-        Quotes that include foreign currency may be subject to fluctuations in exchange rates and international credit card issuer fees.
+          Quotes that include foreign currency may be subject to fluctuations in exchange rates and international credit card issuer fees.
         </p>
         <p>
-        If for any reason the client's credit card charges are later declined, or reversed, and Sweet Tea + Sunshine Cruise Vacations (an affiliate Archer Travel Services) is unable to receive payment for any travel plans and services, the Client acknowledge that this is a binding contract and that said agency will be entitled to recovery, including reasonable attorneys’ fees in connection with collection.
+          If for any reason the client's credit card charges are later declined, or reversed, and Sweet Tea + Sunshine Cruise Vacations (an affiliate Archer Travel Services) is unable to receive payment for any travel plans and services, the Client acknowledge that this is a binding contract and that said agency will be entitled to recovery, including reasonable attorneys’ fees in connection with collection.
         </p>
 
         <h2>
@@ -34,10 +34,10 @@ export const Terms = () => {
         </h2>
 
         <p>
-        It is strongly recommended that client checks in a minimum of 2 hours prior to scheduled departure for domestic flights and 3 hours prior to scheduled departure for international flights.
+          It is strongly recommended that client checks in a minimum of 2 hours prior to scheduled departure for domestic flights and 3 hours prior to scheduled departure for international flights.
         </p>
         <p>
-        * It is the traveler's responsibility to reconfirm flight times approximately 24 hours prior to scheduled flight as well as before leaving for airport. Sweet Tea + Sunshine Cruise Vacations (an affiliate Archer Travel Services) will not assume responsibility for any air or schedule changes.
+          * It is the traveler's responsibility to reconfirm flight times approximately 24 hours prior to scheduled flight as well as before leaving for airport. Sweet Tea + Sunshine Cruise Vacations (an affiliate Archer Travel Services) will not assume responsibility for any air or schedule changes.
         </p>
         <p>
           Travel Protection/Insurance: Travel protection and insurance is strongly recommended to protect your investment. Unless specifically noted, travel insurance is not included in the cost of client's itinerary and is provided for an additional fee.

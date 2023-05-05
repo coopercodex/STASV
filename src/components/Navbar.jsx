@@ -38,7 +38,7 @@ export const Navbar = () => {
           {/* <span style={{ fontSize: '30px' }}>|</span> */}
           <li><Link to='/destinations' className="home-button">Destinations</Link></li>
           {/* <span style={{ fontSize: '30px' }}>|</span> */}
-          <li className='last-li'><Link  to='/terms'  className="home-button">Terms & Conditions</Link></li>
+          <li className='last-li'><Link to='/terms' className="home-button">Terms & Conditions</Link></li>
         </ul>
         <div className='hamburger-container'>
           {/* <Link to='/'><img src={logo} className='logo-media' /></Link> */}
