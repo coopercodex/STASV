@@ -21,6 +21,11 @@
   margin-left: 1.5rem;
   height: 155px;
   width: 155px;
+  transition: all .3s ease-in-out;
+}
+
+.logo:hover {
+  transform: scale(1.03);
 }
 
 .nav-menu {
@@ -31,6 +36,10 @@
   gap: 0 1.5rem;
   width: 100%;
   list-style: none;
+}
+
+.home-button {
+  transition: all .3s ease-in-out;
 }
 
 .home-button {
@@ -105,7 +114,8 @@
     padding: 0;
     height: 100vh;
     z-index: -1;
-    background-color: rgba(160, 158, 158);
+    /* background-color: rgba(160, 158, 158, 0.965); */
+     background-color: rgba(199, 150, 110, 0.962); 
   }
   .nav-menu > span {
     display: none;
@@ -123,14 +133,6 @@
     font-size: 1.2rem;
   }
 
-  /* .logo-media {
-    height: 120px;
-    width: 120px;
-    margin-left: 2rem;
-    margin-top: 5px;
-    margin-bottom: -10px;
-  } */
-
   .navbar-black-logo {
     object-fit: contain;
     height: 200px;
@@ -140,6 +142,7 @@
   .last-li {
     margin-right: 0;
   }
+  
 }
 
 /* @media screen and (max-width:640px) {
