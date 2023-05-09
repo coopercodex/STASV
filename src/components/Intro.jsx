@@ -2,7 +2,6 @@ import React from 'react'
 import ReactPlayer from 'react-player'
 import './intro.css'
 
-
 export const Intro = () => {
 
   return (
@@ -15,7 +14,7 @@ export const Intro = () => {
       </div>
         <ReactPlayer
           className='intro-video'
-          url={'https://www.youtube.com/watch?v=OEa9uD1vRYc'}
+          url={'src/assets/Bonnie Cribbon - Lets Cruise Final.mp4'}
           playing={false}
           loop={true}
           width='640px'
