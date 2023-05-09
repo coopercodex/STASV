@@ -34,7 +34,7 @@ export const Navbar = () => {
           <li><Link to='/about' className="home-button">About</Link></li>
           {/* <span style={{ fontSize: '30px' }}>|</span> */}
           <li><Link to='/contact' className="home-button">Contact</Link></li>
-          <li><Link className="home-button">Specials</Link></li>
+          {/* <li><Link className="home-button">Specials</Link></li> */}
           {/* <span style={{ fontSize: '30px' }}>|</span> */}
           <li><Link to='/destinations' className="home-button">Destinations</Link></li>
           {/* <span style={{ fontSize: '30px' }}>|</span> */}
