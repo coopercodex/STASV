@@ -3,7 +3,7 @@ import ReactPlayer from 'react-player'
 import './intro.css'
 
 export const Intro = () => {
-  const video = 'src/assets/Bonnie Cribbon - Lets Cruise Final.mp4'
+
   return (
     <div className='intro-container'>
       <h1>Welcome to Sweet Tea + Sunshine Cruise Vacations!</h1>
@@ -14,7 +14,7 @@ export const Intro = () => {
       </div>
         <ReactPlayer
           className='intro-video'
-          url={`${video}`}
+          url={'https://youtu.be/neYdRtmnSzE'}
           playing={false}
           loop={true}
           width='640px'
