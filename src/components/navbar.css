@@ -1,6 +1,6 @@
 .navbar {
   color: rgb(247, 247, 247);
-  position: absolute;
+  position: fixed;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -14,6 +14,10 @@
   height: 90px;
   padding-bottom: 1rem;
   padding-top: 2rem;
+}
+
+.navbar-black {
+  background-color: rgba(82, 82, 82, .4);
 }
 
 .logo {

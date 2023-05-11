@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import './navbar.css'
 import logo from '../assets/Sweet tea and sunshine vacations (6).png'
@@ -8,6 +8,7 @@ import CloseIcon from '@mui/icons-material/Close';
 
 export const Navbar = () => {
   const [showNavbar, setShowNavbar] = useState(false);
+  const [show, handleShow] = useState(false);
 
   const handleNavbar = () => {
     setShowNavbar(!showNavbar)
@@ -16,6 +17,20 @@ export const Navbar = () => {
   const handleClickAway = () => {
     setShowNavbar(false)
   }
+
+  const transition = () => {
+    if (window.scrollY > 50) {
+      handleShow(true);
+    } else {
+      handleShow(false);
+    }
+  }
+
+  useEffect(() => {
+    window.addEventListener('scroll', transition)
+    return () =>
+      window.removeEventListener('scroll', transition)
+  }, [])
 
   let btnClassName = Array.from(document.getElementsByClassName('home-button'))
 
@@ -26,7 +41,7 @@ export const Navbar = () => {
 
   return (
     <ClickAwayListener onClickAway={handleClickAway}>
-      <div className='navbar'>
+      <div className={`navbar ${show && 'navbar-black'}`}>
         <Link to='/' onClick={() => setShowNavbar(false)}><img src={logo} className='logo' /></Link>
         <ul className={showNavbar ? 'nav-menu active' : 'nav-menu'}>
           <li><Link to='/' className="home-button">Home</Link></li>
