@@ -9,12 +9,27 @@
   /* text-align: center; */
 }
 
+/* .dcard {
+  display: flex;
+  flex-direction: column;
+} */
+
+.destinations {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+}
+
 .destinations-container {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .destinations-card {
-  max-width: 900px;
+  max-width: 450px;
+  /* max-height: 720px; */
   /* border: 1px solid black; */
   display: flex;
   flex-direction: column;
@@ -28,8 +43,9 @@
 
 .destination-image {
   /* object-fit: contain; */
-  height: auto;
-  max-height: 550px;
+  min-height: 300px;
+  /* height: auto; */
+  max-height: 300px;
   /* width: auto; */
   width: 100%;
 }

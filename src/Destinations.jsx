@@ -8,7 +8,7 @@ export const Destinations = () => {
       <h1>Voyages around the World</h1>
       <div className='destinations'>
         {travelData.map((place) => (
-          <div key={place.id}>
+          <div className='dcard' key={place.id}>
             <h2>{place.title}</h2>
             <div className='destinations-card'>
               <img src={place.photo} className='destination-image' />
