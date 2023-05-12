@@ -20,7 +20,7 @@ export const Terms = () => {
         <h2>Pricing:</h2>
 
         <p>
-          Price quotes are applicable to the date and time at which they are requested. Depending on the supplier, quotes are usually only good for 24-48 hours at most, as flights, occupancy availability etc can change minute by minute. Sweet Tea +Sunshine Cruise Vacations (an affiliate Archer Travel Services) is not responsible for any increases due to fuel surcharges, government-imposed taxes/fees or supplier-imposed increases.
+          Price quotes are applicable to the date and time at which they are requested. Depending on the supplier, quotes are usually only good for 24-48 hours at most, as flights, occupancy availability etc can change minute by minute. Sweet Tea + Sunshine Cruise Vacations (an affiliate Archer Travel Services) is not responsible for any increases due to fuel surcharges, government-imposed taxes/fees or supplier-imposed increases.
         </p>
         <p>
           Quotes that include foreign currency may be subject to fluctuations in exchange rates and international credit card issuer fees.
@@ -48,7 +48,7 @@ export const Terms = () => {
         </h2>
 
         <p>
-          Sweet Tea +Sunshine Cruise Vacations (an affiliate Archer Travel Services) shall not be liable for any accident, injury, property damage or personal loss to client or to those traveling with Client in connection with any travel services that we have booked, including but not limited to: acts of God, weather conditions, natural disasters, acts of governments or other authorities, wars, civil disturbances, riots, strikes, epidemics, acts of terrorism, breakdown in equipment, theft, delay, fuel increases or cancelation or change in itinerary or schedules.
+          Sweet Tea + Sunshine Cruise Vacations (an affiliate Archer Travel Services) shall not be liable for any accident, injury, property damage or personal loss to client or to those traveling with Client in connection with any travel services that we have booked, including but not limited to: acts of God, weather conditions, natural disasters, acts of governments or other authorities, wars, civil disturbances, riots, strikes, epidemics, acts of terrorism, breakdown in equipment, theft, delay, fuel increases or cancelation or change in itinerary or schedules.
         </p>
         <p>
           The client acknowledges and accepts that there are cancelation policies, change fees and penalties that apply to his/her travel plans and services as set by travel suppliers, and that he/she may not be able to get refunds depending on circumstance.
