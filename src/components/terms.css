@@ -13,6 +13,19 @@
   font-size: 1.2rem;
 }
 
+.terms-container > h1 {
+    /* margin: auto; */
+    font-size: 2.7rem;
+}
+
+.terms-underline {
+  border-bottom: 1.5px solid #C25D38;
+  width: 75%;
+  /* padding-bottom: 5px; */
+  margin-bottom: 1.5rem;
+  margin: auto;
+}
+
 .terms-body {
   display: flex;
   flex-direction: column;

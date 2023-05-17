@@ -8,6 +8,7 @@ export const Contact = () => {
     <div className='contact-container'>
       <div className='contact-body'>
         <h1>Contact Us</h1>
+        <div className='contact-underline' />
         <p>
           Thank you for considering our cruise travel site for your upcoming vacation. We strive to provide the highest level of customer service and support to ensure that your trip is smooth and enjoyable from start to finish.
           If you have any questions, concerns, or feedback, please feel free to reach out to us via any of the methods below.
