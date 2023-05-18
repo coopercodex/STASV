@@ -9,6 +9,7 @@ export const About = () => {
       <h1>
         Meet your travel advisor: Bonnie Cribben
       </h1>
+      <div className='about-underline' />
       <div className='about-description-container'>
         <img src={profilePic} height={400} style={{ objectFit: 'contain' }} />
         <div className='about-intro'>
@@ -16,7 +17,7 @@ export const About = () => {
           <p>Whether you want to travel to exotic destinations, to relax and be pampered on a luxurious ship, to have a fun family adventure, or to have a romantic getaway, I can help make your CRUISE dreams come true!
           </p>
           <p>
-          As an affiliate of Archer Travel Service and a  member of CLIA (Cruise Lines International Association), Sweet Tea + Sunshine Cruise Vacations works with a worldwide trusted agency with over 70 years' experience. We can save you time, have access to special offers, help with any problems that may arise, have reliable relationships with trusted suppliers, and can give you friendly service that you can count on.
+            As an affiliate of Archer Travel Service and a  member of CLIA (Cruise Lines International Association), Sweet Tea + Sunshine Cruise Vacations works with a worldwide trusted agency with over 70 years' experience. We can save you time, have access to special offers, help with any problems that may arise, have reliable relationships with trusted suppliers, and can give you friendly service that you can count on.
           </p>
           <p>
             Just contact me below with as much information as you can, and we can start planning your trip of a lifetime...

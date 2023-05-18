@@ -16,7 +16,14 @@
 }
 
 .about-container>h1 {
-  margin-bottom: 4rem;
+  /* margin: auto; */
+  font-size: 2.7rem;
+}
+.about-underline {
+  border-bottom: 1.5px solid #C25D38;
+  width: 75%;
+  padding-bottom: 0px;
+  margin-bottom: 1.5rem;
 }
 
 .about-intro {

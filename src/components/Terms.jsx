@@ -5,6 +5,7 @@ export const Terms = () => {
   return (
     <div className='terms-container'>
       <h1>Terms + Conditions</h1>
+      <div className='terms-underline' />
       <div className='terms-body'>
         <h2>Passport Details:</h2>
         <p>
