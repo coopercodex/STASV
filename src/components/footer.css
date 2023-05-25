@@ -15,7 +15,7 @@ a {
   margin: auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 40px;
+  gap: 30px;
 }
 
 .footer .left {
