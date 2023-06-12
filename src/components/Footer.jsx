@@ -12,7 +12,7 @@ export const Footer = () => {
           <div className='location'>
             <FaSearchLocation size={20} style={{ color: 'white', marginRight: '2rem' }} />
             <div>
-              <h4>1010 Carroll Road, Marion, SC 29571</h4>
+              <h4>Marion, SC 29571</h4>
             </div>
           </div>
           <div className='phone'>
@@ -26,14 +26,16 @@ export const Footer = () => {
         <div className='right'>
           <h4>Connect with us</h4>
           <div className='social'>
-            <FaFacebook size={30} style={{ color: 'white', marginRight: '1rem' }} />
+            <a target="_blank" rel="noopener noreferrer" href='https://www.facebook.com/profile.php?id=100093429484489'>
+              <FaFacebook size={30} style={{ color: 'white', marginRight: '1rem' }} />
+            </a>
             {/* <FaLinkedin size={30} style={{ color: 'white', marginRight: '1rem' }} />
             <FaTwitter size={30} style={{ color: 'white', marginRight: '1rem' }} /> */}
           </div>
           <div className='bottom'>
             <div className='logo-footer'>
-            <img src={evoLogo} height='65' />
-            <img src={archerLogo} className='archer-logo' height='55' />
+              <img src={evoLogo} height='65' />
+              <img src={archerLogo} className='archer-logo' height='55' />
             </div>
             <p>
               Copyrights © 2023 All Rights Reserved by Evolution Travel LLC. -<a href='https://www.evotravelagent.com/assets/PrivacyPolicy-f7cbd506874721c3b52e20cb33a9ed2e1e535180a3136f3ef5dd07773508c16e.pdf' target="_blank" rel="noreferrer">Privacy Policy</a>

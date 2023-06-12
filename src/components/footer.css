@@ -64,6 +64,14 @@ a {
   gap: 30px;
 }
 
+.social {
+  transition: all .3s ease-in-out;
+}
+
+.social:hover {
+  transform: scale(1.01);
+}
+
 @media screen and (max-width:640px) {
   .footer-container {
     grid-template-columns: 1fr;
