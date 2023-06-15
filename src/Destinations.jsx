@@ -16,7 +16,7 @@ export const Destinations = () => {
   }, [])
   return (
     <div className='destinations-container'>
-      <h1>Voyages around the World</h1>
+      <h1>See the World!</h1>
       <div className='destinations-underline' />
       <div className='destinations-body'>
         <p>

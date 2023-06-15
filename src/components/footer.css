@@ -10,6 +10,10 @@ a {
   color: inherit;
 }
 
+.phone>h3 {
+  font-size: larger;
+}
+
 .footer-container {
   max-width: 1240px;
   margin: auto;
@@ -65,11 +69,15 @@ a {
 }
 
 .social {
-  transition: all .3s ease-in-out;
+  max-height: 1.5rem;
 }
 
-.social:hover {
-  transform: scale(1.01);
+.fb {
+  font-size: 29px;
+}
+
+.fb:hover {
+  color: rgba(211, 212, 215, 0.7);
 }
 
 @media screen and (max-width:640px) {

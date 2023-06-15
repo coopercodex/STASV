@@ -11,23 +11,23 @@ export const Footer = () => {
         <div className='left'>
           <div className='location'>
             <FaSearchLocation size={20} style={{ color: 'white', marginRight: '2rem' }} />
-            <div>
-              <h4>Marion, SC 29571</h4>
+            <div className='phone'>
+              <h3>Marion, SC 29571</h3>
             </div>
           </div>
           <div className='phone'>
-            <h4><FaPhone size={20} style={{ color: 'white', marginRight: '2rem' }} />1-805-708-3851</h4>
+            <h3><FaPhone size={20} style={{ color: 'white', marginRight: '2rem' }} />1-805-708-3851</h3>
           </div>
           <div className='phone'>
-            <h4><FaMailBulk size={20} style={{ color: 'white', marginRight: '2rem' }} />
-              <a href="mailto:email@example.com?subject=Inquiry from Sweet Tea and Sunshine Cruise Vacations">sweetteasunshinecruisevac@gmail.com</a></h4>
+            <h3><FaMailBulk size={20} style={{ color: 'white', marginRight: '2rem' }} />
+              <a href="mailto:email@example.com?subject=Inquiry from Sweet Tea and Sunshine Cruise Vacations">sweetteasunshinecruisevac@gmail.com</a></h3>
           </div>
         </div>
         <div className='right'>
           <h4>Connect with us</h4>
           <div className='social'>
             <a target="_blank" rel="noopener noreferrer" href='https://www.facebook.com/profile.php?id=100093429484489'>
-              <FaFacebook size={30} style={{ color: 'white', marginRight: '1rem' }} />
+              <FaFacebook className='fb' />
             </a>
             {/* <FaLinkedin size={30} style={{ color: 'white', marginRight: '1rem' }} />
             <FaTwitter size={30} style={{ color: 'white', marginRight: '1rem' }} /> */}
