@@ -14,7 +14,7 @@ import terms from './assets/2016_0330_Hawaii_Waikiki_dreamstime_11833955.jpg'
 import { Contact } from './components/Contact'
 import { Destinations } from './Destinations'
 import { Terms } from './components/Terms'
-import bgc from './assets/Ldn.jpg'
+import bgc from './assets/ldn.jpg'
 
 function App() {
 
