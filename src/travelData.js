@@ -133,7 +133,7 @@ const travelData = [
   {
     id: 11,
     title: 'Bermuda',
-    description: 'You will be captivated by both its modern cityscapes and ancient heritage. Enjoy colorful festivals like the Gion Festival and the Kumano Fireworks Festival, or meander through ancient temples, stand on the Great Wall of China, and treasure the warmth of the Balinese people. The lands of cherry blossoms, and MT Fuji awaits! Hong Kong, Thailand, Bali, are just some of the places to see...',
+    description:  'Amazing... That\'s how you can describe this beautiful island. Turquoise water, pink sandy beaches, orange sunsets are some of the magnificent sceneries that await you. You can dive with tropical fish, sightsee through colonial landmarks, and stroll along the beautiful Horseshoe Bay beaches. Excursions like riding a catamaran, golfing award-winning courses, snorkeling a coral reef and visiting art museums are perfect to do in this fun filled little getaway!',
     photo: [image13, image19],
     credit: {
       name: 'Michael Denning',
