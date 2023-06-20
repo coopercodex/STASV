@@ -49,7 +49,7 @@ function App() {
             <Destinations />
           </>
         } />
-         <Route path='terms' element={
+        <Route path='terms' element={
           <>
             <Banner image={terms} />
             <Logo />
