@@ -2,7 +2,7 @@ import image1 from './assets/rabih-shasha-zRFfmZUooBs-unsplash.jpg'
 import image2 from './assets/tom-jur-9SEVZePS-9s-unsplash.jpg'
 import image3 from './assets/isabella-smith-sNGImLlEZB8-unsplash.jpg'
 import image4 from './assets/luke-mckeown-nlyWZtWTzCo-unsplash.jpg'
-import image5 from './assets/spencer-watson-ioy3bN5Irew-unsplash.jpg'
+import image5 from './assets/Mexico-chichanitzu.jpg'
 import image6 from './assets/lindsay-thompson-vP5UKNVq7vQ-unsplash.jpg'
 import image7 from './assets/dan-palen-5QjddVYkjd0-unsplash.jpg'
 import image8 from './assets/harshil-gudka-noelDNmA2_U-unsplash.jpg'
@@ -15,17 +15,17 @@ import image14 from './assets/RCI_Jamaica_052015_Shorex_HorseRideBeach_001_RET.j
 import image15 from './assets/MP_2021_1019_GN_Mazatlan_AngelFlores_0038_AS_RGB.jpg'
 import image16 from './assets/SA_15_DM_FUKUOKA_DAZAIFU_TENMANGU_11852.jpg'
 import image17 from './assets/sebastien-uwagwk2FywU-unsplash.jpg'
-import image18 from './assets/christoph-schulz-jG3I8b5iyHI-unsplash.jpg'
-import image19 from './assets/kino-apdbXDriykI-unsplash.jpg'
-import image20 from './assets/john-o-nolan-rqrv0bbzMLg-unsplash.jpg'
-import image21 from './assets/harshil-gudka-kfxEUCTUeyg-unsplash.jpg'
+import image18 from './assets/MiddleEast-IstanbulTurkey.jpg'
+import image19 from './assets/Bermuda2.jpg'
+import image20 from './assets/craig-stevenson-Lrfeth2WaOo-unsplash.jpg'
+import image21 from './assets/Africa-AddoElephantPark.jpg'
 import image22 from './assets/sherard-campbell-OmF9_5i2muo-unsplash.jpg'
 import image23 from './assets/2016_0330_Hawaii_Waikiki_dreamstime_11833955.jpg'
 import image24 from './assets/PCL_XP_Discovery_Princess_Haines_Alaska_USA_Ship_Aerial_Drone_CTrantina_062322_0043_RGB.jpg'
-import image25 from './assets/HAP_2019_Alaska_Rail_12_RGB.jpg'
+import image25 from './assets/Alaska-glacierbay.jpg'
 import image26 from './assets/ACROPOLIS_10535.jpg'
 import image27 from './assets/manuel-cosentino-n--CMLApjfI-unsplash.jpg'
-
+import image28 from './assets/MiddleEast-TelAvivIsrael.jpg'
 
 
 const travelData = [
@@ -144,7 +144,7 @@ const travelData = [
     id: 12,
     title: 'Middle East',
     description: 'Some of the European cruises will take you to see many of the wonders of the middle east areas. In Egypt, you can sightsee at the Sphynx and the Great Pyramids of Giza.  Maybe you\'d like to explore the bazaars, palaces and mosques of Turkey, or swim at the beaches or tour historic sites in Israel. History and culture abound!',
-    photo: [image17, image18],
+    photo: [image17, image18, image28],
     credit: {
       name: 'Michael Denning',
       link: 'https://unsplash.com/photos/LXomcUwf4vQ'
